@@ -6,8 +6,9 @@ import Card from "./components/card"
 export default function App() {
     return (
         <div className="container">
-           <NavBar />
+           <NavBar/>
            <Hero/>
            <Card/>
-        </div>)
+        </div>
+    )
 }
